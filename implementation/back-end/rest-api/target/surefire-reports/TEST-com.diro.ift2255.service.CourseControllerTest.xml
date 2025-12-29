@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.diro.ift2255.service.CourseControllerTest" time="0.548" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/test-classes:/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/classes:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/home/yeah/.m2/repository/io/javalin/javalin/6.7.0/javalin-6.7.0.jar:/home/yeah/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-server/11.0.25/jetty-server-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-http/11.0.25/jetty-http-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-util/11.0.25/jetty-util-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-io/11.0.25/jetty-io-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/toolchain/jetty-jakarta-servlet-api/5.0.2/jetty-jakarta-servlet-api-5.0.2.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-server/11.0.25/websocket-jetty-server-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-servlet/11.0.25/jetty-servlet-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-security/11.0.25/jetty-security-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-webapp/11.0.25/jetty-webapp-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-xml/11.0.25/jetty-xml-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-api/11.0.25/websocket-jetty-api-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-common/11.0.25/websocket-jetty-common-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-core-common/11.0.25/websocket-core-common-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/11.0.25/websocket-servlet-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-core-server/11.0.25/websocket-core-server-11.0.25.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.jar:/home/yeah/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.jar:/home/yeah/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/home/yeah/.m2/repository/org/xerial/sqlite-jdbc/3.42.0.1/sqlite-jdbc-3.42.0.1.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/home/yeah/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/home/yeah/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/yeah/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/home/yeah/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yeah/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/home/yeah/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:/home/yeah/.m2/repository/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.jar:/home/yeah/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/home/yeah/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.jar:/home/yeah/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/yeah/.m2/repository/org/mockito/mockito-junit-jupiter/5.12.0/mockito-junit-jupiter-5.12.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/surefire/surefirebooter-20251228100706399_3.jar /home/yeah/Desktop/G4/implementation/back-end/rest-api/target/surefire 2025-12-28T10-07-06_246-jvmRun1 surefire-20251228100706399_1tmp surefire_0-20251228100706399_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/test-classes:/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/classes:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/yeah/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/home/yeah/.m2/repository/io/javalin/javalin/6.7.0/javalin-6.7.0.jar:/home/yeah/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-server/11.0.25/jetty-server-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-http/11.0.25/jetty-http-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-util/11.0.25/jetty-util-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-io/11.0.25/jetty-io-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/toolchain/jetty-jakarta-servlet-api/5.0.2/jetty-jakarta-servlet-api-5.0.2.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-server/11.0.25/websocket-jetty-server-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-servlet/11.0.25/jetty-servlet-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-security/11.0.25/jetty-security-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-webapp/11.0.25/jetty-webapp-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/jetty-xml/11.0.25/jetty-xml-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-api/11.0.25/websocket-jetty-api-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-common/11.0.25/websocket-jetty-common-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-core-common/11.0.25/websocket-core-common-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/11.0.25/websocket-servlet-11.0.25.jar:/home/yeah/.m2/repository/org/eclipse/jetty/websocket/websocket-core-server/11.0.25/websocket-core-server-11.0.25.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.jar:/home/yeah/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/yeah/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.jar:/home/yeah/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/home/yeah/.m2/repository/org/xerial/sqlite-jdbc/3.42.0.1/sqlite-jdbc-3.42.0.1.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/home/yeah/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/home/yeah/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/home/yeah/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/yeah/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/home/yeah/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yeah/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/home/yeah/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:/home/yeah/.m2/repository/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.jar:/home/yeah/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/home/yeah/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.jar:/home/yeah/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/yeah/.m2/repository/org/mockito/mockito-junit-jupiter/5.12.0/mockito-junit-jupiter-5.12.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/yeah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api/target/surefire/surefirebooter-20251228100706399_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+10-Ubuntu-125.04"/>
+    <property name="user.name" value="yeah"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-37-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/yeah/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/home/yeah/Desktop/G4/implementation/back-end/rest-api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.9+10-Ubuntu-125.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="getCourseStats_shouldReturn404_whenNoStats" classname="com.diro.ift2255.service.CourseControllerTest" time="0.533">
+    <system-out><![CDATA[[CourseController] GET /courses/IFT9999/stats
+[CourseController] ID valide, appel statsCoursService.getStatsForCourse(IFT9999)
+[CourseController] AUCUNE statistique trouvée pour: IFT9999
+]]></system-out>
+  </testcase>
+  <testcase name="getCourseStats_shouldReturnStats_whenCourseExists" classname="com.diro.ift2255.service.CourseControllerTest" time="0.01">
+    <system-out><![CDATA[[CourseController] GET /courses/IFT2255/stats
+[CourseController] ID valide, appel statsCoursService.getStatsForCourse(IFT2255)
+[CourseController] Stats trouvées pour IFT2255 -> com.diro.ift2255.service.StatsCoursService$CoursStats@60783105
+]]></system-out>
+  </testcase>
+</testsuite>
